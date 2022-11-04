@@ -1,0 +1,29 @@
+.container_big-card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    width: 600px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.big-card_title h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.big-card_description {
+    margin-top: 20px;
+}
+
+.big-card_description > p > a{
+    color:grey;
+}
+
+.big-card_photo img {
+    width: 100%;
+    min-width: 325px
+}
